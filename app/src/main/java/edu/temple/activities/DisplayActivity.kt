@@ -27,6 +27,10 @@ class DisplayActivity : AppCompatActivity() {
             startActivity(launchIntent)
         }
 
+        val size = intent.getIntExtra("size", 45)
 
+        with(lyricsDisplayTextView) {
+            textSize = size.toFloat()
+        }
     }
 }

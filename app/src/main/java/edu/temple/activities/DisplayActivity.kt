@@ -27,5 +27,6 @@ class DisplayActivity : AppCompatActivity() {
             startActivity(launchIntent)
         }
 
+
     }
 }
